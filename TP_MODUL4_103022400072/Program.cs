@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using TP_MODUL4_103022400072;
 
 namespace TP_MODUL4_103022400072
 {
@@ -10,6 +7,14 @@ namespace TP_MODUL4_103022400072
     {
         static void Main(string[] args)
         {
+            KodePos kp = new KodePos();
+
+            Console.WriteLine("=== Table Driven: Kode Pos ===");
+            Console.WriteLine("Batununggal : " + kp.getKodePos("Batununggal"));
+            Console.WriteLine("Kujangsari  : " + kp.getKodePos("Kujangsari"));
+            Console.WriteLine("Mengger     : " + kp.getKodePos("Mengger"));
+            Console.WriteLine("Wates       : " + kp.getKodePos("Wates"));
+            Console.WriteLine("Cijaura     : " + kp.getKodePos("Cijaura"));
         }
     }
 }
